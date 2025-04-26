@@ -1,0 +1,42 @@
+/* src/App.css */
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+table {
+  width: 160%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  mar
+}
+
+thead {
+  background-color: #f3f4f6;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+
+}
+
+th {
+  font-weight: bold;
+  color: black;
+}
+
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+div.container mx-auto p-4 {
+  max-width: fit-content;
+}

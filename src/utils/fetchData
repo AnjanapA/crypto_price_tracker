@@ -1,0 +1,7 @@
+import { store } from '../app/store';
+import { updateCryptoData } from '../features/crypto/cryptoSlice';
+
+export const fetchCryptoData = async () => {
+  store.dispatch(updateCryptoData());
+  return store.getState().crypto;
+};
